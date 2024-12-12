@@ -1,11 +1,12 @@
 .container {
-    width: 80%;
     height: 80vh;
+    width: 80vw;
     display: flex;
     margin: auto;
     background-color: #FFFCF8;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
+    margin-left: 30px;
 }
 
 
@@ -22,13 +23,6 @@
     justify-content: flex-start;
 }
 
-.content__title {
-    color: #303030;
-    font-size: 28px;
-    margin-bottom: 0px;
-}
-
-.content__date {
-    color: #6A6969;
-    font-size: 16px;
+.imc-flex {
+    display: flex;
 }

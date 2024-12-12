@@ -1,9 +1,9 @@
-import './cadastro.css';
+import './grafico.css';
 import Menu from '../components/menu';
 import DataHoje from '../components/dataHoje';
 import Imc from '../components/imc';
 
-const Cadastro = () => {
+const Grafico = () => {
     return (
         <div>
         <div className="container">
@@ -11,7 +11,7 @@ const Cadastro = () => {
             <section className="section">
                 <div className="content">
                     <header>
-                        <DataHoje title="Cadastro" />
+                        <DataHoje title="Grafico" />
                         <div className='imc-flex' >
                             <Imc title="Altura" color="#F8DEBD"></Imc>
                             <Imc title="Massa" color="#D0FBFF"></Imc>
@@ -25,4 +25,4 @@ const Cadastro = () => {
     );
 };
 
-export default Cadastro;
+export default Grafico;

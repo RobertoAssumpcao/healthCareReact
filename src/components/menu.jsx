@@ -15,7 +15,7 @@ const Menu = () => {
             <button href="index.html" className="navbar__link" onClick={ () => navigate('/cadastro') }>
                 <img src="src/assets/add_circle.png" alt="Home" className="navbar__icon"></img>
             </button>
-            <button href="index.html" className="navbar__link">
+            <button href="index.html" className="navbar__link" onClick={ () => navigate('/grafico') }>
                 <img src="src/assets/today.png" alt="Home" className="navbar__icon"></img>
             </button>
         </nav>

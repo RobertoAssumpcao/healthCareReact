@@ -1,0 +1,88 @@
+.card__name {
+    padding: 0;
+    margin: 0;
+}
+
+.card__date {
+    padding: 0;
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #FFF;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 180px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card__icon {
+    width: 45px;
+    height: 45px;
+}
+
+.card__title {
+    font-size: 16px;
+}
+
+.card__value {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.card__status {
+    background-color: #F8DEBD;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    color: #000000;
+    font-weight: semi-bold;
+}
+
+.card__description {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card {
+    background-color: #FFF;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 130px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
