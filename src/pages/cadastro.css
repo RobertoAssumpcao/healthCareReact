@@ -1,0 +1,63 @@
+/* Estilo do formulário */
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Estilo do título */
+.cadastro-form h2 {
+    color: #303030;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a lista de glicose cadastrada */
+.glicose-lista {
+    margin-top: 20px;
+}
+
+.glicose-item {
+    padding: 10px;
+    background-color: #f8f8f8;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo do campo TextField */
+.MuiTextField-root {
+    max-width: 300px; /* Reduzir a largura dos campos */
+}
+
+/* Estilo para o botão de salvar */
+.MuiButton-root {
+    background-color: #800000; /* Cor vermelha vinho */
+    color: white;
+    font-size: 14px;  /* Diminuir o tamanho do texto */
+    padding: 10px 20px; /* Diminuir o tamanho geral do botão */
+    border-radius: 25px; /* Arredondar o botão */
+    text-transform: none; /* Remover capitalização do texto */
+    box-shadow: none; /* Remover sombra padrão */
+}
+
+.MuiButton-root:hover {
+    background-color: #660000; /* Cor de hover para um tom mais escuro */
+}
+
+/* Remover a seta do campo number */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+.h2Cadastro {
+    padding: 0;
+    margin: 0;
+}

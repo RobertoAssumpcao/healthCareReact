@@ -12,7 +12,12 @@ const CardGlicose = () => {
                 }
                 return response.json();
             })
-            .then(json => setData(json))
+            .then(json => {
+                // Ordenar os dados pela data em ordem decrescente
+                const sortedData = json.sort((a, b) => new Date(b.data) - new Date(a.data));
+                // Pegar os 5 mais recentes
+                setData(sortedData.slice(0, 5));
+            })
             .catch(error => console.error('Erro:', error));
     }, []);
 
